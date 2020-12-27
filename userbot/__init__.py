@@ -176,7 +176,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/2b35f0ef81fe0f9392a12.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/37057d95b74c68f5b9d41.mp4"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
