@@ -15,7 +15,7 @@ async def typewriter(typew):
     await typew.edit(f"**Hallo Semua Saya {DEFAULTUSER} Mengucapkan**")
     sleep(2)
     await typew.edit("`Assalamualaikum.....`")
-    sleep(30)
+    sleep(3)
     await msg.delete()
 # Owner @Si_Dian + @GabuterTolols
 
@@ -27,7 +27,7 @@ async def typewriter(typew):
     await typew.edit(f"**Hallo Semua Saya {DEFAULTUSER} Mengucapkan**")
     sleep(2)
     await typew.edit("`Assalamualaikum.....`")
-    sleep(30)
+    sleep(3)
     await msg.delete()
 # Owner @Si_Dian + @GabuterTolols
 
@@ -39,7 +39,7 @@ async def typewriter(typew):
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
     sleep(1)
     await typew.edit("`Waallaikumsalam......`")
-    sleep(30)
+    sleep(3)
     await msg.delete()
 # Owner @Si_Dian + @GabuterTololsCH
 
@@ -51,7 +51,7 @@ async def typewriter(typew):
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
     sleep(1)
     await typew.edit("`Waallaikumsalam.....`")
-    sleep(30)
+    sleep(3)
     await msg.delete()
 # Owner @Si_Dian + @GabuterTololsCH
 
