@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#NOTICE \n"
-            "OK Bot N0N3 --- Berhasil Di Update")
+            "OK Bot Kyo Berhasil Di Update")
         await asyncio.sleep(10)
         await event.delete()
 
@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n`BOT N0N3 --- \n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
+            f'\n`BOT Kyo \n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -214,10 +214,10 @@ async def upstream(event):
         await event.edit(
             '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
-        await event.edit('`Proses Update N0N3 ---, ....🛠️`')
-        await event.edit('`Proses Update N0N3 ---, loading....🛠️`')
-        await event.edit('`Proses Update N0N3 ---, updating....🛠️`')
-        await event.edit('`Proses Update N0N3 ---, silahkan tunggu....🛠️`')
+        await event.edit('`Proses Update Kyo, ....🛠️`')
+        await event.edit('`Proses Update Kyo, loading....🛠️`')
+        await event.edit('`Proses Update Kyo, updating....🛠️`')
+        await event.edit('`Proses Update Kyo, silahkan tunggu....🛠️`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
