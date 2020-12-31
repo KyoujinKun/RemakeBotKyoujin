@@ -65,18 +65,18 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Shutdown *N0N3 ---*....`")
+    await event.edit("`Shutdown *Kyo*....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
-        await event.client.send_message(BOTLOG_CHATID, "N0N3 --- #SHUTDOWN \n"
+        await event.client.send_message(BOTLOG_CHATID, "Kyo #SHUTDOWN \n"
                                         "**Bot dimatikan**!!")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting N0N3 ---...`")
+    await event.edit("`Restarting Kyo...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗\n \n[┣━─━─[ N0N3 - UBot]─━─━┫](https://github.com/KyoujinKun/RemakeBotKyoujin) \n \n[┣━─━─[ WHO FORK ]─━─━┫](https://github.com/KyoujinKun/RemakeBotKyoujin/network/members)\n \n"
+        "╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗\n \n[┣━─━─[ Kyo - UBot]─━─━┫](https://github.com/KyoujinKun/RemakeBotKyoujin) \n \n[┣━─━─[ Who? Fork? ]─━─━┫](https://github.com/KyoujinKun/RemakeBotKyoujin/network/members)\n \n"
     )
 
 
