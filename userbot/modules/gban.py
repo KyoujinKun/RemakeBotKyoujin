@@ -31,9 +31,7 @@ async def _(event):
             G_BAN_LOGGER_GROUP,
             "/gban [user](tg://user?id={}) {}".format(r_from_id, reason)
         )
-    await event.delete()
     await event.reply("**gbanning...**")
-    asyncio.sleep(3.5)
     await event.edit(f"**User gbanned by {DEFAULTUSER}**")
     asyncio.sleep(5)
     await event.delete()
